@@ -1,0 +1,13 @@
+class Rectangle 
+{
+	double a;
+	double b=9;
+	double Area(){return a*b;}
+	double Perimeter(){return 2*(a+b);}
+	public static void main(String[] args) 
+	{
+		System.out.println("叶世雯，201905006425");
+		Rectangle c1=new Rectangle();c1.a=7;
+		System.out.println("周长="+c1.Perimeter()+"面积="+c1.Area());
+	}
+}

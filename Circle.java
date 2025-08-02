@@ -1,0 +1,20 @@
+class  Circle
+{
+	double radius;
+	double pi=3.14159;
+	
+	Circle(){radius=0;}
+	Circle(double r){ this.radius=r;}
+	  
+	double Area(){return pi*radius*radius;}
+	double Perimeter(){return 2*pi*radius;}
+
+	public static void main(String[] args) 
+	{
+		
+		Circle c1=new Circle();
+		c1.radius=6;
+		System.out.println("周长="+c1.Perimeter()+",面积="+c1.Area());
+		System.out.println("叶世雯，201905006425");
+	}
+}
